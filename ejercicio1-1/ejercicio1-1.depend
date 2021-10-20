@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1634667536 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/ejercicio1-1/ArrayEmployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"ArrayEmployees.h"
+
+1634427115 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/ejercicio1-1/utn.h
+
+1634613761 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/ejercicio1-1/ArrayEmployees.h
+
+1634700060 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/ejercicio1-1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"persona.h"
+	"localidad.h"
+	"ArrayEmployees.h"
+	"dataPrueva.h"
+	"ibm.h"
+	"utn.h"
+
+1634427115 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/ejercicio1-1/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"utn.h"
+
+1634667957 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/ejercicio1-1/dataPrueva.c
+	<string.h>
+	"dataPrueva.h"
+	"persona.h"
+
+1634597335 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/ejercicio1-1/dataPrueva.h
+	"persona.h"
+
+1634698196 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/ejercicio1-1/persona.h
+	"localidad.h"
+	"comidas.h"
+	"fecha.h"
+
+1634673640 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/ejercicio1-1/localidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"localidad.h"
+
+1634671300 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/ejercicio1-1/localidad.h
+
+1634698470 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/ejercicio1-1/persona.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"persona.h"
+	"utn.h"
+
+1634700354 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/ejercicio1-1/ibm.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	"persona.h"
+	"localidad.h"
+	"utn.h"
+	"ibm.h"
+
+1634700006 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/ejercicio1-1/ibm.h
+
+1634693556 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/ejercicio1-1/comidas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"comidas.h"
+
+1634693556 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/ejercicio1-1/comidas.h
+
+1634692299 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/ejercicio1-1/fecha.h
+
+1634692140 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/ejercicio1-1/fecha.c
+
