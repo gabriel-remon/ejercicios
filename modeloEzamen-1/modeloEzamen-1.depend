@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1634786733 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloEzamen-1/ibm.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	"utn.h"
+	"salon.h"
+	"arcade.h"
+	"ibm.h"
+
+1634777063 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloEzamen-1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"salon.h"
+	"arcade.h"
+	"utn.h"
+	"ibm.h"
+
+1634786733 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloEzamen-1/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"utn.h"
+
+1634786876 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloEzamen-1/utn.h
+
+1634777426 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloEzamen-1/arcade.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"arcade.h"
+
+1634786733 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloEzamen-1/arcade.h
+
+1634762799 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloEzamen-1/salon.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"salon.h"
+
+1634763264 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloEzamen-1/salon.h
+
+1634786733 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloEzamen-1/ibm.h
+	"salon.h"
+	"arcade.h"
+
+1634786733 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloEzamen-1/dataPrueva.c
+	<string.h>
+	"dataPrueva.h"
+	"salon.h"
+	"arcade.h"
+
+1634777015 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloEzamen-1/dataPrueva.h
+	"salon.h"
+	"arcade.h"
+

@@ -4,7 +4,7 @@
 
 #ifndef UTN_H_
 #define UTN_H_
-
+int esNumero(char vec[], int tam);
 
 int utn_minMaxInt(int* pResultado, char* pMensaje, char* pMensajeError, int minimo, int maximo);
 /** pide un numero entero al usuario y lo valida entre un parametro minimo y maximo. Reintenta hasta conseguir un numero valido
@@ -91,15 +91,6 @@ y luego el primero a mayuscula
 * parametro tam int tamaño maximo del string
 *
 * retorna int return (1) si no todos los caracteres son letras - (0) si todos son letras
-*/
-
-
-int esNumero(char vec[], int tam);
-/** pide un string por parametro y valida que todos los caracteres sean numeros.
-* parametro vec[] char
-* parametro tam int tamaño maximo del string
-*
-* retorna int return (1) si no todos los caracteres son numeros - (0) si todos son numeros
 */
 
 

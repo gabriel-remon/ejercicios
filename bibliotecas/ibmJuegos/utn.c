@@ -41,7 +41,7 @@ static int esNumerica(char bufferIn[])
         {
             i=1;
         }
-        for(; bufferIn[i]!='\0'; i++)
+        for(; bufferIn[i]!='\0';i++)
         {
             if(bufferIn[i]<'0'|| bufferIn[i]>'9')
             {
@@ -60,7 +60,7 @@ static int myGets(char bufferIn[], int tam)
 
     if(bufferIn!=NULL && tam>0)
     {
-        __fpurge(stdin);
+    	__fpurge(stdin);
         fgets(bufferIn, tam, stdin);
 
         bufferIn[strlen(bufferIn)-1]='\0';
@@ -149,8 +149,7 @@ int utn_getCharDos(char* pResultado, char* pMensaje, char* pMensajeError, char c
             {
                 printf("\n%s ", pMensajeError);
             }
-        }
-        while(1);
+        }while(1);
     }
     return retorno;
 }
@@ -179,8 +178,7 @@ int utn_getInt(int* pResultado, char* pMensaje, char* pMensajeError)
             {
                 printf("\n%s ", pMensajeError);
             }
-        }
-        while(1);
+        }while(1);
     }
     return retorno;
 }
@@ -209,8 +207,7 @@ int utn_getFloat(float* pResultado, char* pMensaje, char* pMensajeError)
             {
                 printf("\n%s ", pMensajeError);
             }
-        }
-        while(1);
+        }while(1);
     }
     return retorno;
 }
@@ -238,8 +235,7 @@ int utn_getChar(char* pResultado, char* pMensaje, char* pMensajeError)
             {
                 printf("\n%s ", pMensajeError);
             }
-        }
-        while(1);
+        }while(1);
     }
     return retorno;
 }
@@ -279,63 +275,62 @@ int utn_ingresoScring(char cadena[],char* pMensaje, char*pMensajeError, int tamP
             {
                 printf("\n%s ", pMensajeError);
             }
-        }
-        while(1);
+        }while(1);
     }
     return retorno;
 }
 
 int esPalabra(char vec[], int tam)
 {
-    int retorno=1;
-    int flagLetra=1;
+	int retorno=1;
+	int flagLetra=1;
 
-    if(vec!=NULL && tam>0)
-    {
-        for(int i=0; (i<tam && (vec[i])!='\0'); i++)
-        {
-            if(!((vec[i])>='A' && (vec[i])<='Z') && !((vec[i])>='a' && (vec[i])<='z') )
-            {
-                printf("\nIngrese solo letras\n");
-                flagLetra=0;
-                break;
-            }
-            if(vec[i]>='A' && vec[i]<='Z')
-            {
-                vec[i]=vec[i]+32;
-            }
-        }
-        if(flagLetra)
-        {
-            if(vec[0]>='a' && vec[0]<='z')
-            {
-                vec[0]=vec[0]-32;
-            }
-            retorno=0;
-        }
-    }
+	if(vec!=NULL && tam>0)
+	{
+		for(int i=0; (i<tam && (vec[i])!='\0'); i++)
+		{
+			if(!((vec[i])>='A' && (vec[i])<='Z') && !((vec[i])>='a' && (vec[i])<='z') )
+			{
+				printf("\nIngrese solo letras\n");
+				flagLetra=0;
+				break;
+			}
+			if(vec[i]>='A' && vec[i]<='Z')
+			{
+				vec[i]=vec[i]+32;
+			}
+		}
+		if(flagLetra)
+		{
+			if(vec[0]>='a' && vec[0]<='z')
+			{
+				vec[0]=vec[0]-32;
+			}
+			retorno=0;
+		}
+	}
 
-    return retorno;
+	return retorno;
 }
 
 int esNumero(char vec[], int tam)
 {
-    int retorno=1;
+	int retorno=1;
 
 
-    if(vec!=NULL && tam>0)
-    {
-        for(int i=0; (i<tam && (vec[i])!='\0'); i++)
-        {
-            if(vec[i]<'0'|| vec[i]>'9')
-            {
-                printf("\nIngrese solo numeros\n");
-                retorno=0;
-                break;
-            }
-        }
+	if(vec!=NULL && tam>0)
+	{
+		for(int i=0; (i<tam && (vec[i])!='\0'); i++)
+		{
+			if(vec[i]<'0'|| vec[i]>'9')
+			{
+				printf("\nIngrese solo numeros\n");
+				retorno=0;
+				break;
+			}
+		}
 
-    }
+	}
 
-    return retorno;
+	return retorno;
 }

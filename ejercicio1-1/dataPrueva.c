@@ -1,6 +1,7 @@
 #include <string.h>
 #include "dataPrueva.h"
-#include "persona.h"
+#include "salon.h"
+#include "arcade.h"
 
 char nombres[20][20] ={
     "Juan",
@@ -14,6 +15,33 @@ char nombres[20][20] ={
     "Diego",
     "Analia",
 };
+
+char nacionalidades[20][20] ={
+    "Argentina",
+    "Peru",
+    "Suecia",
+    "Brasil",
+    "España",
+    "Francia",
+    "Argentina",
+    "Chile",
+    "Inglaterra",
+    "Italia",
+};
+
+char direcciones [20][20] ={
+    "Argentina",
+    "Peru",
+    "Suecia",
+    "Brasil",
+    "España",
+    "Francia",
+    "Argentina",
+    "Chile",
+    "Inglaterra",
+    "Italia",
+};
+
 
 char sexos[10] = {'m','m','f','m','f','f','f','m','m','f'};
 
