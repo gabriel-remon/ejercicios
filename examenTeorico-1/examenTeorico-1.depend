@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1634931566 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/examenTeorico-1/fecha.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	"utn.h"
+	"fecha.h"
+
+1635190226 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/examenTeorico-1/utn.h
+
+1634927993 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/examenTeorico-1/fecha.h
+
+1635201612 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/examenTeorico-1/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1635190233 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/examenTeorico-1/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"utn.h"
+

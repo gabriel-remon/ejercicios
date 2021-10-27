@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="modeloEzamen-1" />
+		<Option title="modeloExamne-4" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/modeloEzamen-1" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/modeloExamne-4" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/modeloEzamen-1" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/modeloExamne-4" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -31,25 +31,35 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="arcade.c">
+		<Unit filename="bicicleta.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="arcade.h" />
-		<Unit filename="dataPrueva.c">
+		<Unit filename="bicicleta.h" />
+		<Unit filename="color.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="dataPrueva.h" />
-		<Unit filename="ibm.c">
+		<Unit filename="color.h" />
+		<Unit filename="fecha.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="ibm.h" />
+		<Unit filename="fecha.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="salon.c">
+		<Unit filename="servicio.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="salon.h" />
+		<Unit filename="servicio.h" />
+		<Unit filename="tipo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tipo.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="trabajo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="trabajo.h" />
 		<Unit filename="utn.c">
 			<Option compilerVar="CC" />
 		</Unit>

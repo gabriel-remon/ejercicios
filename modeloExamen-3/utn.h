@@ -102,13 +102,5 @@ int esNumero(char vec[], int tam);
 * retorna int return (1) si no todos los caracteres son numeros - (0) si todos son numeros
 */
 
-int utn_ordenarEnteros(int vec[], int tam, int criterio);
-int utn_ordenarFloat(float vec[], int tam, int criterio);
-int utn_ordenarChar(char vec[], int tam, int criterio);
-int utn_swapInt(int* num1, int* num2);
-int utn_swapFloat(float* num1, float* num2);
-int utn_swapChar(char* car1, char* car2);
-
-
 
 #endif /* UTN_H_ */

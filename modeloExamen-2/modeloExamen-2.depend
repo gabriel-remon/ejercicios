@@ -1,0 +1,106 @@
+# depslib dependency file v1.0
+1634928393 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-2/auto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"color.h"
+	"marca.h"
+	"auto.h"
+
+1634927254 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-2/color.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"color.h"
+
+1634866190 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-2/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"color.h"
+	"marca.h"
+	"auto.h"
+	"trabajo.h"
+	"servicio.h"
+	"mostrar.h"
+
+1634851118 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-2/marca.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"marca.h"
+
+1634927770 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-2/servicio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"servicio.h"
+
+1634866011 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-2/trabajo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"color.h"
+	"marca.h"
+	"auto.h"
+	"trabajo.h"
+	"servicio.h"
+
+1634786733 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-2/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"utn.h"
+
+1634786876 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-2/utn.h
+
+1634846331 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-2/fecha.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fecha.h"
+
+1634927993 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-2/fecha.h
+
+1634927770 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-2/color.h
+
+1634927770 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-2/marca.h
+
+1634927770 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-2/servicio.h
+
+1634929296 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-2/auto.h
+	"color.h"
+	"marca.h"
+	"auto.h"
+
+1634865691 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-2/mostrar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"auto.h"
+	"color.h"
+	"fecha.h"
+	"marca.h"
+	"servicio.h"
+	"trabajo.h"
+
+1634927770 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-2/trabajo.h
+	"fecha.h"
+	"servicio.h"
+	"servicio.h"
+
+1634927993 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-2/mostrar.h
+	"auto.h"
+	"color.h"
+	"fecha.h"
+	"marca.h"
+	"servicio.h"
+	"trabajo.h"
+

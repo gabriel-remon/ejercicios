@@ -9,7 +9,7 @@
 	"arcade.h"
 	"ibm.h"
 
-1634777063 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloEzamen-1/main.c
+1634786876 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloEzamen-1/main.c
 	<stdio.h>
 	<stdlib.h>
 	"salon.h"
@@ -44,7 +44,7 @@
 
 1634763264 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloEzamen-1/salon.h
 
-1634786733 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloEzamen-1/ibm.h
+1634787632 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloEzamen-1/ibm.h
 	"salon.h"
 	"arcade.h"
 

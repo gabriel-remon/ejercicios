@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1634931566 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamne-4/fecha.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	"utn.h"
+	"fecha.h"
+
+1635190226 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamne-4/utn.h
+
+1634927993 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamne-4/fecha.h
+
+1635196027 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamne-4/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"color.h"
+	"tipo.h"
+	"bicicleta.h"
+	"trabajo.h"
+	"servicio.h"
+
+1635190233 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamne-4/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"utn.h"
+
+1635195225 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamne-4/bicicleta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"color.h"
+	"tipo.h"
+	"bicicleta.h"
+
+1635194877 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamne-4/servicio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"servicio.h"
+
+1635195925 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamne-4/trabajo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"trabajo.h"
+	"servicio.h"
+	"bicicleta.h"
+	"tipo.h"
+	"color.h"
+
+1635191379 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamne-4/color.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"color.h"
+
+1635191379 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamne-4/color.h
+
+1635191417 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamne-4/tipo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"tipo.h"
+
+1635191417 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamne-4/tipo.h
+
+1635192807 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamne-4/servicio.h
+
+1635195916 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamne-4/bicicleta.h
+	"tipo.h"
+	"color.h"
+
+1635195861 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamne-4/trabajo.h
+	"fecha.h"
+	"servicio.h"
+	"bicicleta.h"
+

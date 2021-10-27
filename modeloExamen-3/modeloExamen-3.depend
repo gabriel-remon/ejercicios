@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1634931566 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-3/fecha.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	"utn.h"
+	"fecha.h"
+
+1634786876 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-3/utn.h
+
+1634927993 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-3/fecha.h
+
+1634934450 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-3/servicios.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"servicios.h"
+
+1634936289 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-3/servicios.h
+
+1634786733 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-3/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	"utn.h"
+
+1634935015 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-3/trabajo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"trabajo.h"
+	"servicios.h"
+
+1634936540 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-3/trabajo.h
+	"fecha.h"
+	"servicios.h"
+
+1634935094 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-3/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"trabajo.h"
+	"servicios.h"
+
+1634936373 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-3/mascota.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"mascota.h"
+
+1634936350 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/modeloExamen-3/mascota.h
+
