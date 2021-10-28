@@ -5,7 +5,7 @@ typedef struct
 {
     int id;
     char descripcion[30];
-}eComidas;
+} eComidas;
 
 
 int cargarDescripcioncomida( eComidas comidas[], int tamCom,int idBuscador, char descripcion[] );

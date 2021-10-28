@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <stdio_ext.h>
 #include <string.h>
+#include <ctype.h>
 #include "utn.h"
 
 
@@ -318,3 +319,90 @@ int esPalabra(char vec[], int tam)
     return retorno;
 }
 
+int esNumero(char vec[], int tam)
+{
+    int retorno=1;
+
+
+    if(vec!=NULL && tam>0)
+    {
+        for(int i=0; (i<tam && (vec[i])!='\0'); i++)
+        {
+            if(vec[i]<'0'|| vec[i]>'9')
+            {
+                printf("\nIngrese solo numeros\n");
+                retorno=0;
+                break;
+            }
+        }
+
+    }
+
+    return retorno;
+}
+
+int utn_confirmar(char* pResultado, char* pMensaje, char* pMensajeError, char criterio1, char criterio2)
+{
+    int retorno = -1;
+    char bufferIn;
+    int error;
+
+    if(pResultado != NULL && pMensaje!= NULL && pMensajeError!= NULL)
+    {
+        do
+        {
+            printf("%s ", pMensaje);
+            __fpurge(stdin);
+            error = scanf("%c", &bufferIn);
+            bufferIn=toupper(bufferIn);
+            criterio1= toupper(criterio1);
+            criterio2= toupper(criterio2);
+            if(error == 1 && (bufferIn == criterio1 ||bufferIn == criterio2))
+            {
+                *pResultado = bufferIn;
+                retorno = 0;
+                break;
+            }
+            else
+            {
+                printf("\n%s ", pMensajeError);
+            }
+        }
+        while(1);
+    }
+    return retorno;
+}
+
+int utn_ordenarFloat(float vec[], int tam, int criterio)
+{
+    int retorno=-1;
+    if(vec!=NULL && tam>0 && (criterio ==1 || criterio ==0))
+    {
+        for(int i=0; i<tam-1; i++)
+        {
+            for(int j=i+1; j< tam; j++ )
+            {
+                    if((vec[i] > vec[j] && criterio) || (vec[i] < vec[j] && !criterio))
+                    {
+                        utn_swapFloat(&vec[i], &vec[j]);
+                    }
+            }
+        }
+        retorno=0;
+    }
+    return retorno;
+}
+
+int utn_swapFloat(float* num1, float* num2)
+{
+    int retorno=-1;
+    float aux;
+    if(num1!=NULL && num2!=NULL)
+    {
+        aux=*num1;
+        *num1=*num2;
+        *num2=aux;
+        retorno=0;
+    }
+    return retorno;
+}

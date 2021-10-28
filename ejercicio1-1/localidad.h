@@ -5,7 +5,7 @@ typedef struct
 {
     int id;
     char descripcion[20];
-}eLocalidad;
+} eLocalidad;
 
 #endif // LOCALIDAD_H_INCLUDED
 

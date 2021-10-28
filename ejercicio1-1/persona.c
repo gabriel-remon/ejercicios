@@ -23,7 +23,7 @@ void mostrarPersona(ePersona vec[],int tam, eLocalidad loc[],int tamLoc)
                        vec[i].altura,
                        vec[i].sexo,
                        localidad
-                       );
+                      );
             }
         }
     }
@@ -36,20 +36,20 @@ void mostrarUnaPersona(ePersona* vec,eLocalidad loc[], int tamLoc)
     if(vec!=NULL && loc!=NULL && tamLoc>0 )
     {
         utn_clear();
-            if( !(vec->isEmpty) )
-            {
-                    cargarDescripcionLocalidad(loc,tamLoc,vec->idLocalidad,localidad);
+        if( !(vec->isEmpty) )
+        {
+            cargarDescripcionLocalidad(loc,tamLoc,vec->idLocalidad,localidad);
 
-                    printf("Datos de la persona:\n\n");
-                    printf("Id: %d \nNombre: %s \nedad: %d \nlocalidad:%s \nsexo: %c \nALtura: %.2f",
-                           vec->id,
-                           vec->nombre,
-                           vec->edad,
-                           localidad,
-                           vec->sexo,
-                           vec->altura
-                          );
-            }
+            printf("Datos de la persona:\n\n");
+            printf("Id: %d \nNombre: %s \nedad: %d \nlocalidad:%s \nsexo: %c \nALtura: %.2f",
+                   vec->id,
+                   vec->nombre,
+                   vec->edad,
+                   localidad,
+                   vec->sexo,
+                   vec->altura
+                  );
+        }
 
         printf("\n\n");
     }
@@ -139,7 +139,7 @@ int initPersonas(ePersona vec[], int tam) //**
         for(int i=0; i<tam; i++)
         {
             vec[i].isEmpty=VACIO;
-            for(int j=0 ;j<(sizeof(vec[0].idComidas) / 4); j++)
+            for(int j=0 ; j<(sizeof(vec[0].idComidas) / 4); j++)
             {
                 vec[i].idComidas[j]=0;
             }

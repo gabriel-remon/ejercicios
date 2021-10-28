@@ -683,10 +683,11 @@ int altaAlmuerzo(ePersona vec[],int tam, eComidas com[],int tamCom, eLocalidad l
                             printf("Ingrese la fecha de este almuerzo ");
                             __fpurge(stdin);
                             error=scanf("%2d/%2d/%4d",&vec[posicion].fechaAlmuerzo[posicionComida].dia,
-                                                      &vec[posicion].fechaAlmuerzo[posicionComida].mes,
-                                                      &vec[posicion].fechaAlmuerzo[posicionComida].anio
-                                                      );
-                        }while(!error);
+                                        &vec[posicion].fechaAlmuerzo[posicionComida].mes,
+                                        &vec[posicion].fechaAlmuerzo[posicionComida].anio
+                                       );
+                        }
+                        while(!error);
                     }
                     else
                     {
@@ -734,15 +735,15 @@ void print_almuerzos(ePersona vec[],int tam,eLocalidad loc[],int tamLoc,eComidas
                        vec[i].altura,
                        vec[i].sexo,
                        localidad
-                       );
-                for(int j=0 ; (vec[i].idComidas[j]!=0 && j< (sizeof(vec[0].idComidas)/4) );j++)
+                      );
+                for(int j=0 ; (vec[i].idComidas[j]!=0 && j< (sizeof(vec[0].idComidas)/4) ); j++)
                 {
                     cargarDescripcioncomida(com,tamCom,vec[i].idComidas[j],comida);
                     printf("%dº almuerzo. fecha: %02d/%02d/%04d  comio: %s \n",j+1,
-                                                                          vec[i].fechaAlmuerzo[j].dia,
-                                                                          vec[i].fechaAlmuerzo[j].mes,
-                                                                          vec[i].fechaAlmuerzo[j].anio,
-                                                                          comida);
+                           vec[i].fechaAlmuerzo[j].dia,
+                           vec[i].fechaAlmuerzo[j].mes,
+                           vec[i].fechaAlmuerzo[j].anio,
+                           comida);
                 }
                 printf("\n");
 

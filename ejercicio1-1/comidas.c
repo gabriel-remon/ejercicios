@@ -37,9 +37,9 @@ int mostrarcomidas(eComidas comidas[], int tamCom)
         for (int i = 0; i < tamCom; i++)
         {
             printf("  %d       %-10s\n",
-                    comidas[i].id,
-                    comidas[i].descripcion
-                    );
+                   comidas[i].id,
+                   comidas[i].descripcion
+                  );
         }
         retorno = 0;
     }

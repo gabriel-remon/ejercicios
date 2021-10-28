@@ -37,9 +37,9 @@ int mostrarLocalidades( eLocalidad localidades[], int tam )
         for (int i = 0; i < tam; i++)
         {
             printf("  %d       %-10s\n",
-                    localidades[i].id,
-                    localidades[i].descripcion
-                    );
+                   localidades[i].id,
+                   localidades[i].descripcion
+                  );
         }
         printf("\n\n");
         todoOk = 1;

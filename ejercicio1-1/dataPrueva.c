@@ -3,7 +3,8 @@
 #include "salon.h"
 #include "arcade.h"
 
-char nombres[20][20] ={
+char nombres[20][20] =
+{
     "Juan",
     "Pedro",
     "Sofia",
@@ -16,7 +17,8 @@ char nombres[20][20] ={
     "Analia",
 };
 
-char nacionalidades[20][20] ={
+char nacionalidades[20][20] =
+{
     "Argentina",
     "Peru",
     "Suecia",
@@ -29,7 +31,8 @@ char nacionalidades[20][20] ={
     "Italia",
 };
 
-char direcciones [20][20] ={
+char direcciones [20][20] =
+{
     "Argentina",
     "Peru",
     "Suecia",

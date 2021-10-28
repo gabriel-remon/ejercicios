@@ -1,0 +1,112 @@
+# depslib dependency file v1.0
+1634948100 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/fecha.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	"utn.h"
+	"fecha.h"
+
+1635367483 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/utn.h
+
+1634948100 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/fecha.h
+
+1635370636 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"tipo.h"
+	"color.h"
+	"mascota.h"
+	"servicios.h"
+	"trabajo.h"
+	"dataPrueva.h"
+
+1635367483 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
+1635283192 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/color.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"color.h"
+
+1634948101 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/color.h
+
+1635283797 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/mascota.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+	"mascota.h"
+
+1635283192 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/servicios.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"servicios.h"
+
+1635284229 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/trabajo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"trabajo.h"
+	"servicios.h"
+	"mascota.h"
+	"tipo.h"
+	"color.h"
+
+1634948100 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/tipo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"tipo.h"
+
+1635283192 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/tipo.h
+
+1634948100 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/mascota.h
+	"tipo.h"
+	"color.h"
+
+1634948100 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/servicios.h
+
+1635282000 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/trabajo.h
+	"fecha.h"
+	"servicios.h"
+	"mascota.h"
+	"color.h"
+	"tipo.h"
+
+1635282779 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/dataPrueva.c
+	<string.h>
+	"trabajo.h"
+	"dataPrueva.h"
+	"mascota.h"
+	"tipo.h"
+	"color.h"
+
+1635282758 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/dataPrueva.h
+	"mascota.h"
+
+1635371448 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/listas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+	"trabajo.h"
+	"servicios.h"
+	"mascota.h"
+	"tipo.h"
+	"color.h"
+	"tipo.h"
+

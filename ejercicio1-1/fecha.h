@@ -6,7 +6,7 @@ typedef struct
     int dia;
     int mes;
     int anio;
-}eFecha;
+} eFecha;
 
 
 #endif // FECHA_H_INCLUDED
