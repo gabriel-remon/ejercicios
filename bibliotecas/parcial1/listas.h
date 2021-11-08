@@ -5,6 +5,8 @@
 
 #endif // LISTAS_H_INCLUDED
 
+void mostrarServicioPromedioMayor(eMascota vec[],int tam,eColor col[], int tamCol,eTipo tip[], int tamTip,eTrabajo tra[],int tamTra,eServicio ser[],int tamSer);
+
 void prototipoTrabajo();
 /** @brief texto que aparece antes de mostrar la lista de trabajos
 */
@@ -38,7 +40,7 @@ void mostrarUnaFilaMascotaTrabajo( eMascota *vec,eTrabajo *tra,eColor col[], int
 *   @param tamSer tamaño del vector tip[]
 */
 
-int menuListas();
+char menuListas();
 /** @brief imprime un menu y devuelve la eleccion del usuario
 *   @return caracter tipo char
 */
@@ -66,8 +68,30 @@ void mostrarAnimalesTipo( eMascota vec[],int tam,eColor col[], int tamCol,eTipo 
 *   @param tip[] vector de tipo eTipo
 *   @param tamTip tamaño del vector Etipo
 */
+void mostrarAnimalesServicio( eMascota vec[],int tam,eColor col[], int tamCol,eTipo tip[], int tamTip, eServicio ser[], int tamSer,eTrabajo tra[],int tamTra);
+/** @brief Muestra la lista de animales separandola por cada servicio realizado a los animal
+*   @param mas[] vector de tipo eMascota
+*   @param tamMas tamaño del vector eMascota
+*   @param col[] vector de tipo eColor
+*   @param tamCol tamaño del vector eColor
+*   @param tip[] vector de tipo eTipo
+*   @param tamTip tamaño del vector Etipo
+*   @param vec[] vector de tipo eServicio
+*   @param tamVec tamaño del vector eServicio
+*   @param tra[] vector de tipo eTrabajo
+*   @param tamTra tamaño del vector eTrabajo
+*/
+void mostrarAnimalesColor(eMascota vec[],int tam,eColor col[], int tamCol,eTipo tip[], int tamTip);
+/** @brief Muestra la lista de animales separandola por cada tipo de
+*   @param mas[] vector de tipo eMascota
+*   @param tamMas tamaño del vector eMascota
+*   @param col[] vector de tipo eColor
+*   @param tamCol tamaño del vector eColor
+*   @param tip[] vector de tipo eTipo
+*   @param tamTip tamaño del vector Etipo
+*/
 
-int informarAnimalMenor(eMascota mas[],int tamMas, eColor col[],int tamCol,eTipo tip[],int tamTip);
+int informarAnimalMayor(eMascota mas[],int tamMas, eColor col[],int tamCol,eTipo tip[],int tamTip);
 /** @brief comprara los valores eMascota.edad y muestra la informaion de la o las mascota con mayor edad
 *   @param mas[] vector de tipo eMascota
 *   @param tamMas tamaño del vector eMascota
@@ -101,7 +125,18 @@ int mostrarMascotaColorSelec(eMascota mas[],int tamMas,eColor col[],int tamCol,e
 *
 *   @return (-1) si huvo un error - (0) si todo ok - (1) si no se encontraron valores en mas[]
 */
-
+int mostrarMascotaTipoSelec(eMascota mas[],int tamMas,eColor col[],int tamCol,eTipo tip[],int tamTip);
+/** @brief pide al usuario elegir un id del vector tip[] y si es valido muestra las mascotas (mas[])
+*          que tengan ese mismo id (idTipo)
+*   @param mas[] vector de tipo eMascota
+*   @param tamMas tamaño del vector eMascota
+*   @param col[] vector de tipo eColor
+*   @param tamCol tamaño del vector eColor
+*   @param tip[] vector de tipo eTipo
+*   @param tamTip tamaño del vector Etipo
+*
+*   @return (-1) si huvo un error - (0) si todo ok - (1) si no se encontraron valores en mas[]
+*/
 int contarColorTipo(eMascota mas[],int tamMas,eColor col[],int tamCol,eTipo tip[],int tamTip);
 /** @brief pide al usuario elegir un id del vector col[] y si es valido, pide que seleccione un id
 *          del vector tip[] y cuenta las cantidad de mascotas(mas[]) que coincidan con esos dos
@@ -115,7 +150,21 @@ int contarColorTipo(eMascota mas[],int tamMas,eColor col[],int tamCol,eTipo tip[
 *
 *   @return (-1) si huvo un error - (0) si todo ok - (1) si no se encontraron valores en mas[]
 */
-
+int contarMarcotasServicio(eMascota mas[],int tamMas,eColor col[],int tamCol,eTipo tip[],int tamTip,eTrabajo tra[],int tamTra,eServicio ser[],int tamSer);
+/** @brief pide al usuario elegir un id de una mascota(mas[].id) y muestra cuantos servicios se le realizaron y cuanto se gasto
+*   @param mas[] vector de tipo eMascota
+*   @param tamMas tamaño del vector eMascota
+*   @param col[] vector de tipo eColor
+*   @param tamCol tamaño del vector eColor
+*   @param tip[] vector de tipo eTipo
+*   @param tamTip tamaño del vector Etipo
+*   @param vec[] vector de tipo eServicio
+*   @param tamVec tamaño del vector eServicio
+*   @param tra[] vector de tipo eTrabajo
+*   @param tamTra tamaño del vector eTrabajo
+*
+*   @return (-1) si huvo un error - (0) si todo ok - (1) si no se encontraron valores en mas[]
+*/
 int mostrarServiciosDeMascota(eMascota mas[],int tamMas,eColor col[],int tamCol,eTipo tip[],int tamTip,eTrabajo tra[],int tamTra,eServicio ser[],int tamSer);
 /** @brief pide al usuario elegir un id de una mascota(mas[].id) y muestra los datos de esa mascota y
 *          una lista de todos los trabajos que se le realizaron
@@ -199,30 +248,4 @@ int hayFecha(eTrabajo tra[],int tamTra, eFecha fechaIngreso);
 *   @param fechaIngreso valor que se usara para buscar
 *
 *   @return (0) si no se encontro - (1) si se encontro
-*/
-
-int contarServiciosDeMascota(eMascota mas[],int tamMas,eColor col[],int tamCol,eTipo tip[],int tamTip,eTrabajo tra[],int tamTra,eServicio ser[],int tamSer);
-/** @brief valida que haya valores cargados en el vector mas[] y si los pide un id de una mascota
-*          y muestra el importe que suman todos los servicios que se le realizaron
-*   @param mas[] vector de tipo eMascota
-*   @param tamMas tamaño del vector eMascota
-*   @param col[] vector de tipo eColor
-*   @param tamCol tamaño del vector eColor
-*   @param tip[] vector de tipo eTipo
-*   @param tamTip tamaño del vector Etipo
-*   @param vec[] vector de tipo eServicio
-*   @param tamVec tamaño del vector eServicio
-*   @param tra[] vector de tipo eTrabajo
-*   @param tamTra tamaño del vector eTrabajo
-*
-*   @return (-1) si huvo un error - (0) si todo ok - (1) si no se encontraron valores en mas[]
-*/
-int porcentajeMascotasVacunadas(eMascota mas[],int tamMas);
-/** @brief valida que haya valores cargados en el vector mas[] y muestra el porcentaje
-*          de las marcotas vacunadas
-*   @param mas[] vector de tipo eMascota
-*   @param tamMas tamaño del vector eMascota
-
-*
-*   @return (-1) si huvo un error - (0) si todo ok - (1) si no se encontraron valores en mas[]
 */

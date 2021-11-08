@@ -1,11 +1,3 @@
-/*
-
-    autor: Gabriel Remon
-    fecha: 29/10/2021
-    descripcion: Segunda parte del primer parcial de lavoratorio
-    divicion: 1G
-
-*/
 #include <stdio.h>
 #include <stdlib.h>
 #include "utn.h"
@@ -19,9 +11,9 @@
 
 #define TAM_TIP 5
 #define TAM_COL 5
-#define TAM_MAS 100
+#define TAM_MAS 11
 #define TAM_SER 3
-#define TAM_TRA 1000
+#define TAM_TRA 11
 
 int main()
 {

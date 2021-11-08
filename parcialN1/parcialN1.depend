@@ -10,7 +10,7 @@
 
 1634948100 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/fecha.h
 
-1635370636 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/main.c
+1635373978 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/main.c
 	<stdio.h>
 	<stdlib.h>
 	"utn.h"
@@ -86,7 +86,7 @@
 	"color.h"
 	"tipo.h"
 
-1635282779 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/dataPrueva.c
+1635371512 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/gabriel_remon_parcial_1_lavoratorio/parcialN1/dataPrueva.c
 	<string.h>
 	"trabajo.h"
 	"dataPrueva.h"
@@ -109,4 +109,129 @@
 	"tipo.h"
 	"color.h"
 	"tipo.h"
+
+1635283192 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/color.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"color.h"
+
+1635534976 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/utn.h
+
+1635539128 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/color.h
+
+1635541876 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/dataPrueva.c
+	<string.h>
+	"trabajo.h"
+	"dataPrueva.h"
+	"mascota.h"
+	"tipo.h"
+	"color.h"
+
+1635543484 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/trabajo.h
+	"fecha.h"
+	"servicios.h"
+	"mascota.h"
+	"color.h"
+	"tipo.h"
+
+1635539427 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/fecha.h
+
+1635539128 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/servicios.h
+
+1635540334 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/mascota.h
+	"tipo.h"
+	"color.h"
+
+1635539128 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/tipo.h
+
+1635282758 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/dataPrueva.h
+	"mascota.h"
+
+1634948100 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/fecha.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	"utn.h"
+	"fecha.h"
+
+1635549470 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"tipo.h"
+	"color.h"
+	"mascota.h"
+	"servicios.h"
+	"trabajo.h"
+	"dataPrueva.h"
+	"listas.h"
+
+1635548380 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/mascota.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+	"mascota.h"
+
+1635283192 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/servicios.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"servicios.h"
+
+1634948100 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/tipo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"tipo.h"
+
+1635284229 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/trabajo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"trabajo.h"
+	"servicios.h"
+	"mascota.h"
+	"tipo.h"
+	"color.h"
+
+1635543484 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
+1635548621 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/listas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+	"trabajo.h"
+	"servicios.h"
+	"mascota.h"
+	"tipo.h"
+	"color.h"
+	"tipo.h"
+	"listas.h"
+
+1635548621 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/listas.h
+
+1635538299 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/duenio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+	"duenio.h"
+
+1635540334 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/parcialN1/duenio.h
 

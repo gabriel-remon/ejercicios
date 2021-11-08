@@ -111,7 +111,7 @@ char menu()
     printf("I- LISTAR TRABAJOS\n");
     printf("J- LISTADOS\n");
 
-    printf("K- SALIR\n\n");
+    printf("K-SALIR\n\n");
 
     utn_getChar(&retorno,"\nIngrese la opcion deseada: ", "Error, ingrese un caracter valido\n");
     retorno= toupper(retorno);
