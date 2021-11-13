@@ -22,6 +22,21 @@
 
 int main()
 {
+
+    FILE* f;
+    Employee empleados[30];
+    int cant;
+
+    if((f=fopen("data.csv","rb"))==NULL);
+    {
+        exit(1);
+    }
+    while(!feof(f))
+    {
+        cant=fread(&empleados)
+    }
+
+/*
     int option = 0;
 
     LinkedList* listaEmpleados = ll_newLinkedList();
@@ -33,6 +48,7 @@ int main()
                 break;
         }
     }while(option != 10);
+  */
     return 0;
 }
 

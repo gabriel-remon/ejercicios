@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1636762687 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/memoriaDinamica1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"Employee.h"
+	"parser.h"
+	"Controller.h"
+	"LinkedList.h"
+
+1636755952 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/memoriaDinamica1/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1636751352 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/memoriaDinamica1/Employee.h
+	"LinkedList.h"
+
+1636764215 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/memoriaDinamica1/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio_ext.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
+1636763831 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/memoriaDinamica1/utn.h
+
+1636764683 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/memoriaDinamica1/Employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"utn.h"
+
+1636763377 source:/home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/memoriaDinamica1/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Controller.h"
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"utn.h"
+
+1636674160 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/memoriaDinamica1/LinkedList.h
+
+1636680932 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/memoriaDinamica1/parser.h
+	"LinkedList.h"
+
+1636762687 /home/linux/Escritorio/facultad/programacion/primerCuatrimestre/ejercicios/memoriaDinamica1/Controller.h
+	"LinkedList.h"
+
